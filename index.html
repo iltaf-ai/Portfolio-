@@ -1,283 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iltaf Hussain — GenAI &amp; Agentic AI Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Iltaf Hussain — GenAI & Agentic AI Developer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="site-nav">
-  <div class="nav-row">
-    <a href="#top" class="nav-mark"><span class="dot"></span>Iltaf Hussain</a>
-    <ul class="nav-links" aria-label="Main navigation">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</header>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
 
-<main id="top">
+            <a href="#home" class="logo">
+                Iltaf<span>.</span>
+            </a>
 
-  <section class="hero">
-    <div class="wrap">
-      <p class="hero-kicker">Python &amp; GenAI Developer — building practical projects</p>
-      <h1>I build the backend logic behind AI agents.</h1>
-      <p class="lede">Python developer focused on FastAPI backends, data pipelines, and GenAI/agentic systems — currently in Grade 11, building toward production-ready AI applications.</p>
-      <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">See what I'm building</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
-      </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-      <div class="pipeline" role="img" aria-label="Pipeline: raw data cleaned with pandas, modeled with machine learning, reasoned over by an AI agent, served through a FastAPI endpoint, delivered as output.">
-        <div class="pipeline-track">
-          <div class="pnode on">
-            <div class="pipeline-line"><span class="pulse"></span></div>
-            <div class="badge">Raw</div>
-            <div class="label">Raw Data</div>
-            <div class="sub">Excel / CSV</div>
-          </div>
-          <div class="pnode on">
-            <div class="pipeline-line"><span class="pulse"></span></div>
-            <div class="badge">🐼</div>
-            <div class="label">Clean</div>
-            <div class="sub">pandas</div>
-          </div>
-          <div class="pnode on">
-            <div class="pipeline-line"><span class="pulse"></span></div>
-            <div class="badge">ML</div>
-            <div class="label">Model</div>
-            <div class="sub">scikit-learn</div>
-          </div>
-          <div class="pnode on">
-            <div class="pipeline-line"><span class="pulse"></span></div>
-            <div class="badge">🤖</div>
-            <div class="label">Agent</div>
-            <div class="sub">LangChain</div>
-          </div>
-          <div class="pnode on">
-            <div class="badge">⚡</div>
-            <div class="label">API</div>
-            <div class="sub">FastAPI</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <a href="https://github.com/iltaf-ai"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-link"
+               aria-label="GitHub Profile">
 
-  <section id="about">
-    <div class="wrap">
-      <p class="eyebrow">About</p>
-      <h2 class="sec-title">Learning in public, one project at a time</h2>
-      <div class="about-grid">
-        <div>
-          <p>I'm a Grade 11 student focused on becoming a GenAI and Agentic AI developer. My work centers on Python — using it to clean and structure data, build machine learning models, and wire large language models into agents that can reason, use tools, and complete tasks on their own.</p>
-          <p>On the backend side, I build APIs with FastAPI that connect those models to the outside world — handling requests, streaming responses, and keeping things fast and reliable.</p>
-          <p>I'm following a structured roadmap toward production-level agentic AI systems, with hands-on projects at every stage rather than just theory.</p>
-        </div>
-        <div class="stat-card">
-          <div class="stat-row"><span>Currently</span><span>Grade 11 student</span></div>
-          <div class="stat-row"><span>Focus</span><span>GenAI + Agentic AI</span></div>
-          <div class="stat-row"><span>Backend</span><span>FastAPI / Python</span></div>
-          <div class="stat-row"><span>Also offering</span><span>Data cleaning &amp; automation</span></div>
-          <div class="stat-row"><span>Based in</span><span>Pakistan</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="skills">
-    <div class="wrap">
-      <p class="eyebrow">Skills</p>
-      <h2 class="sec-title">What I work with</h2>
-      <div class="skill-groups">
-        <div class="skill-card">
-          <h3><span class="ico"></span>Core &amp; Data</h3>
-          <div class="chip-row">
-            <span class="chip">Python</span>
-            <span class="chip">Pandas</span>
-            <span class="chip">NumPy</span>
-            <span class="chip">Excel</span>
-            <span class="chip">Data Cleaning</span>
-          </div>
-        </div>
-        <div class="skill-card">
-          <h3><span class="ico"></span>Machine Learning</h3>
-          <div class="chip-row">
-            <span class="chip">Machine Learning</span>
-            <span class="chip">Deep Learning</span>
-            <span class="chip">Matplotlib / Seaborn</span>
-          </div>
-        </div>
-        <div class="skill-card">
-          <h3><span class="ico"></span>Backend</h3>
-          <div class="chip-row">
-            <span class="chip">FastAPI</span>
-            <span class="chip">Flask</span>
-            <span class="chip">REST APIs</span>
-            <span class="chip">SQLAlchemy</span>
-          </div>
-        </div>
-        <div class="skill-card">
-          <h3><span class="ico"></span>GenAI &amp; Agents</h3>
-          <div class="chip-row">
-            <span class="chip">Prompt Engineering</span>
-            <span class="chip">LangChain</span>
-            <span class="chip">RAG</span>
-            <span class="chip">Agentic AI</span>
-          </div>
-        </div>
-        <div class="skill-card">
-          <h3><span class="ico"></span>Automation</h3>
-          <div class="chip-row">
-            <span class="chip">Excel → Word</span>
-            <span class="chip">Report Automation</span>
-            <span class="chip">Python Scripts</span>
-          </div>
-        </div>
-        <div class="skill-card">
-          <h3><span class="ico"></span>Frontend Development</h3>
-          <div class="chip-row">
-            <span class="chip">HTML</span>
-            <span class="chip">CSS</span>
-            <span class="chip">JavaScript</span>
-            <span class="chip">Landing Pages</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.58 2 12.22C2 16.74 4.87 20.57 8.84 21.93C9.34 22.03 9.52 21.71 9.52 21.43V19.7C6.73 20.33 6.14 18.32 6.14 18.32C5.69 17.13 5.03 16.81 5.03 16.81C4.12 16.17 5.1 16.19 5.1 16.19C6.1 16.26 6.63 17.25 6.63 17.25C7.52 18.82 8.97 18.37 9.56 18.1C9.65 17.43 9.91 16.98 10.2 16.72C7.98 16.46 5.64 15.58 5.64 11.32C5.64 10.1 6.06 9.1 6.66 8.32C6.55 8.05 6.18 6.92 6.76 5.38C6.76 5.38 7.73 5.06 9.52 6.31C10.44 6.05 11.4 5.92 12.36 5.92C13.32 5.92 14.28 6.05 15.2 6.31C16.99 5.06 17.96 5.38 17.96 5.38C18.54 6.92 18.17 8.05 18.06 8.32C18.66 9.1 19.08 10.1 19.08 11.32C19.08 15.59 16.73 16.45 14.51 16.71C14.87 17.03 15.19 17.67 15.19 18.65V21.43C15.19 21.71 15.37 22.04 15.88 21.93C19.84 20.57 22.71 16.74 22.71 12.22C22.71 6.58 18.23 2 12.71 2H12Z"/>
+                </svg>
 
- <section id="services">
-    <div class="wrap">
-      <p class="eyebrow">Services</p>
-      <h2 class="sec-title">Services I can provide</h2>
-      <div class="service-list">
-        <div class="service-row">
-          <span class="num">01</span>
-          <div>
-            <h4>Excel &amp; data cleaning</h4>
-            <p>Removing duplicates, fixing missing values, standardizing messy spreadsheets into clean, usable files.</p>
-          </div>
-          <span class="tag">pandas</span>
-        </div>
-        <div class="service-row">
-          <span class="num">02</span>
-          <div>
-            <h4>Excel to Word automation</h4>
-            <p>Turning raw spreadsheet data into formatted Word reports automatically, without manual copy-paste.</p>
-          </div>
-          <span class="tag">python-docx</span>
-        </div>
-        <div class="service-row">
-          <span class="num">03</span>
-          <div>
-            <h4>Small backend APIs</h4>
-            <p>Simple FastAPI endpoints to connect a script, model, or tool to a website or app.</p>
-          </div>
-          <span class="tag">FastAPI</span>
-        </div>
-        <div class="service-row">
-          <span class="num">04</span>
-          <div>
-            <h4>Landing page development</h4>
-            <p>Clean, responsive landing pages built with HTML, CSS, and JavaScript for products or personal brands.</p>
-          </div>
-          <span class="tag">HTML/CSS/JS</span>
-        </div>
-        <div class="service-row">
-          <span class="num">05</span>
-          <div>
-            <h4>ML-powered website forms</h4>
-            <p>Website forms connected to a machine learning model on the backend — for predictions, scoring, or smart validation.</p>
-          </div>
-          <span class="tag">ML + FastAPI</span>
-        </div>
-        <div class="service-row">
-          <span class="num">06</span>
-          <div>
-            <h4>AI chatbot integration</h4>
-            <p>Adding an LLM-powered chatbot to a website or app for support, Q&amp;A, or guided user interactions.</p>
-          </div>
-          <span class="tag">GenAI</span>
-        </div>
-      </div>
-    </div>
-  </section>
- <section id="projects">
-    <div class="wrap">
-      <p class="eyebrow">Projects</p>
-      <h2 class="sec-title">Selected Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <span class="project-status" style="color:var(--accent);background:var(--accent-soft);">Live</span>
-          <h4>AI Resume Analyzer</h4>
-          <p>An AI-powered tool that reviews a resume and gives feedback and suggestions to improve it.</p>
-          <div class="project-stack"><span>GenAI</span><span>Python</span><span>Vercel</span></div>
-          <a href="https://ai-resume-analyzer-iltaf.vercel.app/" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:4px; align-self:flex-start; padding:8px 16px; font-size:0.85rem;">View live demo →</a>
-        </div>
-        <div class="project-card">
-          <span class="project-status">In progress</span>
-          <h4>AI Study Assistant</h4>
-          <p>An assistant that helps plan study sessions, answers subject questions, and generates quick quizzes.</p>
-          <div class="project-stack"><span>LangChain</span><span>FastAPI</span></div>
-        </div>
-        <div class="project-card">
-          <span class="project-status">In progress</span>
-          <h4>Notes Q&amp;A Agent</h4>
-          <p>A RAG-based assistant that answers questions from my own study notes and PDFs.</p>
-          <div class="project-stack"><span>LangChain</span><span>FastAPI</span><span>ChromaDB</span></div>
-        </div>
-<div class="project-card">
-          <span class="project-status">Planned</span>
-          <h4>Product Assistant — Admin &amp; User Panel</h4>
-          <p>A full product management system with separate admin and user panels, role-based access, and a GenAI assistant built in.</p>
-          <div class="project-stack"><span>FastAPI</span><span>GenAI</span><span>HTML/CSS/JS</span></div>
+                GitHub
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="hero-tag">
+                    Python Developer • GenAI • Agentic AI
+                </p>
+
+                <h1>
+                    Building Intelligent
+                    <span>AI-Powered Solutions</span>
+                </h1>
+
+                <p class="hero-description">
+                    Hi, I'm Iltaf Hussain, a passionate GenAI and Agentic AI
+                    Developer focused on building practical applications using
+                    Python, FastAPI, LLMs, and AI agents.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a href="https://github.com/iltaf-ai"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+
+                        <svg width="25" height="25" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.58 2 12.22C2 16.74 4.87 20.57 8.84 21.93C9.34 22.03 9.52 21.71 9.52 21.43V19.7C6.73 20.33 6.14 18.32 6.14 18.32C5.69 17.13 5.03 16.81 5.03 16.81C4.12 16.17 5.1 16.19 5.1 16.19C6.1 16.26 6.63 17.25 6.63 17.25C7.52 18.82 8.97 18.37 9.56 18.1C9.65 17.43 9.91 16.98 10.2 16.72C7.98 16.46 5.64 15.58 5.64 11.32C5.64 10.1 6.06 9.1 6.66 8.32C6.55 8.05 6.18 6.92 6.76 5.38C6.76 5.38 7.73 5.06 9.52 6.31C10.44 6.05 11.4 5.92 12.36 5.92C13.32 5.92 14.28 6.05 15.2 6.31C16.99 5.06 17.96 5.38 17.96 5.38C18.54 6.92 18.17 8.05 18.06 8.32C18.66 9.1 19.08 10.1 19.08 11.32C19.08 15.59 16.73 16.45 14.51 16.71C14.87 17.03 15.19 17.67 15.19 18.65V21.43C15.19 21.71 15.37 22.04 15.88 21.93C19.84 20.57 22.71 16.74 22.71 12.22C22.71 6.58 18.23 2 12.71 2H12Z"/>
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <div class="hero-card">
+                    <span class="code-symbol">&lt;/&gt;</span>
+                    <h3>AI Developer</h3>
+                    <p>Turning ideas into intelligent applications.</p>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="project-card">
-          <span class="project-status">Planned</span>
-          <h4>ML House Price Prediction</h4>
-          <p>A machine learning project that predicts house prices using cleaned housing data and regression techniques.</p>
-          <div class="project-stack"><span>Python</span><span>NumPy</span><span>scikit-learn</span></div>
-        </div>
-        <div class="project-card">
-          <span class="project-status">Planned</span>
-          <h4>Document Converter</h4>
-          <p>A Python utility concept for converting and organizing documents and tabular files such as PDF, Word, and CSV.</p>
-          <div class="project-stack"><span>Python</span><span>Automation</span><span>File Processing</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <div class="wrap">
-      <div class="contact-box">
-        <div>
-          <h3>Let's build something</h3>
-          <p>Available for beginner-friendly automation, data processing, backend, and AI project opportunities.</p>
-        </div>
-        <div class="contact-links">
-          <a href="mailto:iltafshahni@gmail.com" class="btn btn-primary">Email me</a>
-          <a href="https://github.com/iltaf-ai" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-</main>
-<footer>
-  Iltaf Hussain — built while learning Python, FastAPI, and Agentic AI.
-</footer>
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-tag">About Me</p>
+                <h2>Passionate About AI & Software Development</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I am Iltaf Hussain, a Python and GenAI Developer
+                        interested in creating modern, intelligent, and
+                        business-focused applications.
+                    </p>
+
+                    <p>
+                        My focus is on FastAPI, Generative AI, Agentic AI,
+                        LangChain, LangGraph, APIs, and practical automation
+                        solutions.
+                    </p>
+
+                    <p>
+                        I enjoy learning through real-world projects and
+                        continuously improving my development and problem-solving
+                        skills.
+                    </p>
+
+                </div>
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+                        <h3>Python</h3>
+                        <p>Development</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>GenAI</h3>
+                        <p>Applications</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h3>FastAPI</h3>
+                        <p>Backend</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-tag">My Skills</p>
+                <h2>Technologies I Work With</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Core Python, OOP, automation, and backend development.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>FastAPI</h3>
+                    <p>REST APIs, authentication, database integration, and backend systems.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🤖</span>
+                    <h3>Generative AI</h3>
+                    <p>LLMs, prompts, AI applications, and intelligent assistants.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🧠</span>
+                    <h3>Agentic AI</h3>
+                    <p>AI agents, tools, workflows, LangChain, and LangGraph.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>Databases</h3>
+                    <p>SQL, SQLite, SQLAlchemy, and database management.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, responsive layouts, and modern UI design.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-tag">What I Do</p>
+                <h2>My Services</h2>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <span class="service-icon">🤖</span>
+                    <h3>GenAI Applications</h3>
+                    <p>
+                        Building AI-powered applications using modern
+                        language models and APIs.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">⚙️</span>
+                    <h3>Backend Development</h3>
+                    <p>
+                        Developing secure and scalable APIs with Python,
+                        FastAPI, and SQLAlchemy.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">🧩</span>
+                    <h3>AI Agents</h3>
+                    <p>
+                        Creating intelligent agents that use tools,
+                        workflows, and external data.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">📊</span>
+                    <h3>Data & ML Projects</h3>
+                    <p>
+                        Working with data preprocessing, analysis,
+                        and beginner-level machine learning projects.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-tag">My Work</p>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+
+                <!-- AI Resume Analyzer -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>📄</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status live">
+                                Live
+                            </span>
+
+                            <span class="project-type">
+                                GenAI
+                            </span>
+                        </div>
+
+                        <h3>AI Resume Analyzer</h3>
+
+                        <p>
+                            An AI-powered application that analyzes resumes,
+                            extracts information, and provides useful feedback
+                            using Generative AI.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>Python</span>
+                            <span>GenAI</span>
+                            <span>SQLAlchemy</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://ai-resume-analyzer-iltaf.vercel.app/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                Live Demo ↗
+
+                            </a>
+
+                            <a href="https://github.com/iltaf-ai"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AI Study Assistant -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>📚</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status">
+                                Completed
+                            </span>
+
+                            <span class="project-type">
+                                GenAI
+                            </span>
+                        </div>
+
+                        <h3>AI Study Assistant</h3>
+
+                        <p>
+                            An intelligent study assistant designed to help
+                            users understand topics, ask questions, and learn
+                            with AI-powered responses.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>LLM</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/iltaf-ai"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Notes Q&A Agent -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>📝</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status">
+                                Completed
+                            </span>
+
+                            <span class="project-type">
+                                AI Agent
+                            </span>
+                        </div>
+
+                        <h3>Notes Q&A Agent</h3>
+
+                        <p>
+                            An AI-based question-answering assistant that
+                            helps users interact with their notes and retrieve
+                            relevant information.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LangChain</span>
+                            <span>AI Agent</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/iltaf-ai"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product Assistant -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>🛍️</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status">
+                                Completed
+                            </span>
+
+                            <span class="project-type">
+                                Full Stack
+                            </span>
+                        </div>
+
+                        <h3>AI Product Assistant</h3>
+
+                        <p>
+                            A business-focused product website with product
+                            management, user and admin functionality, and
+                            future AI-powered product recommendations.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>SQLAlchemy</span>
+                            <span>GenAI</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/iltaf-ai/ai-product-assistant"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- House Price Prediction -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>🏠</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status">
+                                Completed
+                            </span>
+
+                            <span class="project-type">
+                                Machine Learning
+                            </span>
+                        </div>
+
+                        <h3>House Price Prediction</h3>
+
+                        <p>
+                            A machine learning project that predicts house
+                            prices using data preprocessing, regression models,
+                            and model evaluation.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/iltaf-ai"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Document Converter -->
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>📂</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+                            <span class="project-status">
+                                Completed
+                            </span>
+
+                            <span class="project-type">
+                                Python
+                            </span>
+                        </div>
+
+                        <h3>Document Converter</h3>
+
+                        <p>
+                            A Python-based utility for converting documents
+                            between different formats and simplifying
+                            document-related tasks.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>File Handling</span>
+                            <span>Automation</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/iltaf-ai"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+
+                                GitHub ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-tag">Get In Touch</p>
+                <h2>Let's Build Something Intelligent</h2>
+            </div>
+
+            <div class="contact-content">
+
+                <div class="contact-text">
+
+                    <h3>Have a project in mind?</h3>
+
+                    <p>
+                        I'm interested in AI applications, backend development,
+                        automation, and innovative software projects.
+                    </p>
+
+                    <p>
+                        Feel free to connect with me through GitHub or email.
+                    </p>
+
+                </div>
+
+                <div class="contact-details">
+
+                    <a href="mailto:your-email@example.com"
+                       class="contact-item">
+
+                        <span>📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your-email@example.com</p>
+                        </div>
+
+                    </a>
+
+                    <a href="https://github.com/iltaf-ai"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-item">
+
+                        <svg width="25" height="25" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.58 2 12.22C2 16.74 4.87 20.57 8.84 21.93C9.34 22.03 9.52 21.71 9.52 21.43V19.7C6.73 20.33 6.14 18.32 6.14 18.32C5.69 17.13 5.03 16.81 5.03 16.81C4.12 16.17 5.1 16.19 5.1 16.19C6.1 16.26 6.63 17.25 6.63 17.25C7.52 18.82 8.97 18.37 9.56 18.1C9.65 17.43 9.91 16.98 10.2 16.72C7.98 16.46 5.64 15.58 5.64 11.32C5.64 10.1 6.06 9.1 6.66 8.32C6.55 8.05 6.18 6.92 6.76 5.38C6.76 5.38 7.73 5.06 9.52 6.31C10.44 6.05 11.4 5.92 12.36 5.92C13.32 5.92 14.28 6.05 15.2 6.31C16.99 5.06 17.96 5.38 17.96 5.38C18.54 6.92 18.17 8.05 18.06 8.32C18.66 9.1 19.08 10.1 19.08 11.32C19.08 15.59 16.73 16.45 14.51 16.71C14.87 17.03 15.19 17.67 15.19 18.65V21.43C15.19 21.71 15.37 22.04 15.88 21.93C19.84 20.57 22.71 16.74 22.71 12.22C22.71 6.58 18.23 2 12.71 2H12Z"/>
+                        </svg>
+
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/iltaf-ai</p>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Iltaf Hussain. All Rights Reserved.
+            </p>
+
+            <a href="https://github.com/iltaf-ai"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                GitHub ↗
+
+            </a>
+
+        </div>
+
+    </footer>
 
 </body>
 </html>
